@@ -1,0 +1,20 @@
+*.md
+*.pyc
+.ipynb_checkpoints/
+__pycache__/
+
+
+# 資料集
+dataset/**/*.json
+dataset/**/*.xml
+dataset/**/*.parquet
+
+
+# 模型
+src/extractive_summarizer/model/*
+src/abstractive_summarizer/model/*
+
+!src/extractive_summarizer/model/.gitkeep
+!src/abstractive_summarizer/model/.gitkeep
+
+
